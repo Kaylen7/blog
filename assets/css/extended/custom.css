@@ -1,0 +1,60 @@
+.toc details summary {
+    cursor: pointer;
+}
+
+.toc .details {
+    padding-left: 5px;
+}
+
+.toc details[open] summary {
+    cursor: pointer;
+}
+
+.toc .inner {
+    margin-left: 10px;
+}
+
+.post-content ol li::marker{
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 1.2em;
+}
+
+.callout {
+    padding: var(--content-gap);
+    padding-left: calc(var(--content-gap) + 0.5em);
+    border-radius: var(--radius);
+}
+
+.callout-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.callout-icon {
+    margin-right: 10px;
+    align-self:center;
+}
+
+.callout.info { 
+    background-color: var(--code-bg); 
+}
+
+.callout.warning { 
+    background-color: var(--tertiary); 
+}
+
+.callout.danger { 
+    background-color: var(--primary); 
+    color: var(--theme);
+}
+
+.callout.success { 
+    background-color: var(--secondary); 
+    color: var(--theme);
+}
