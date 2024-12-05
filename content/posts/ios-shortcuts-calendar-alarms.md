@@ -1,5 +1,5 @@
 ---
-title: "Set up alarms for iCalendar events"
+title: "Set Up Alarms For iCalendar Events"
 summary: iOS Shortcut for creating alarms based on iCalendar events for today.
 date: 2024-12-04
 series: ["lifehacks"]
