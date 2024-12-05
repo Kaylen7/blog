@@ -3,7 +3,7 @@ title: "Crea alarmas para eventos de iCalendar"
 summary: Atajo de iOS para crear alarmas en función de los eventos de hoy de iCalendar.
 date: 2024-12-04
 series: ["lifehacks"]
-weight: 1
+weight: 2
 aliases: ["/ios-shortcuts-calendar-alarms"]
 tags: ["iOS-Shortcuts", "iPhone"]
 author: ["Sara DM"]

@@ -3,7 +3,7 @@ title: "Set up alarms for iCalendar events"
 summary: iOS Shortcut for creating alarms based on iCalendar events for today.
 date: 2024-12-04
 series: ["lifehacks"]
-weight: 1
+weight: 2
 aliases: ["/ios-shortcuts-calendar-alarms"]
 tags: ["iOS-Shortcuts", "iPhone"]
 author: ["Sara DM"]
