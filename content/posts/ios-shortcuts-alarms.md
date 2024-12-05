@@ -1,5 +1,5 @@
 ---
-title: "iOS Shortcuts: Create Two Alarms Before Event"
+title: "Set Up Two Alarms Before an Event"
 summary: iOS Shortcut that creates two alarms before event, with adjustable default for getReady time span and required input for travelTime.
 date: 2024-11-30
 series: ["lifehacks"]
@@ -16,6 +16,8 @@ ShareButtons: twitter, bluesky
 
 ## What
 I built an iOS Shortcut to help me manage time before an event. I usually needed two alarms: one for getting ready, the other for leaving. I automated this with a shortcut that lets me set a default span of time for getting ready and asks the amount of time it takes to get to the place.  
+
+Download from this GitHub [repo](https://github.com/Kaylen7/iOS-Shortcuts/blob/main/Create%20Alarms.shortcut).
 
 ## Why
 I tend to lose track of time when I'm in focus mode. I found that it takes a certain amount of time for me to shift my attention to a new activity, so I got used to setting up two alarms whenever I had plans. This shortcut helps ensure that I don't mess up when setting the alarms; thus releasing me from the concern of wondering if I set them correctly or I'll still be late because I mixed the numbers. 
@@ -41,4 +43,4 @@ This shortcut is only meant for creating events for what is left of the day, sta
 {{< /callout >}}
 
 ## Now what?
-You might wonder if you can combine this with iCalendar to set alarms for today's events... I thought the same and built another shortcut for it.
+You might wonder if you can combine this with iCalendar to set alarms for today's events... I thought the same and built [another shortcut](/posts/ios-shortcuts-calendar-alarms/) for it.

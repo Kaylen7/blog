@@ -1,5 +1,5 @@
 ---
-title: "Atajos de iOS: Crea dos alarmas antes de un evento"
+title: "Crea dos alarmas antes de un evento"
 summary: Atajo para crear dos alarmas antes de un evento, con tiempo de preparación predefinido. El tiempo de desplazamiento se requiere cada vez.
 date: 2024-11-30
 series: ["lifehacks"]
@@ -16,6 +16,8 @@ ShareButtons: twitter, bluesky
 
 ## Qué
 He montado un atajo de iOS que facilita la gestión del tiempo antes de un evento. Yo suelo usar dos alarmas: una para prepararme y otra para salir. He automatizado este proceso con un atajo que me permite establecer un tiempo de preparación predeterminado y un tiempo de desplazamiento variable.
+
+Descárgalo de este [repo](https://github.com/Kaylen7/iOS-Shortcuts/blob/main/Create%20Alarms.shortcut) de GitHub.
 
 ## Por qué
 Cuando estoy concentrada pierdo la noción del tiempo. Me di cuenta de que tardo en poder centrar mi atención al cambiar de actividad, por lo que me acostumbré a usar dos alarmas cuando tenía planes. Este atajo me evita errores al poner las alarmas.
@@ -41,4 +43,4 @@ Este shortcut solo permite crear horas para eventos del día actual, a partir de
 {{< /callout >}}
 
 ## ¿Y ahora qué?
-Quizá te estés preguntando si es posible combinar este atajo con iCalendar para crear alarmas de los eventos del día... Me hice la misma pregunta, y desarrollé este otro atajo. 
+Quizá te estés preguntando si es posible combinar este atajo con iCalendar para crear alarmas de los eventos del día... Me hice la misma pregunta, y desarrollé este otro [atajo]('/posts/ios-shortcuts-calendar'). 
