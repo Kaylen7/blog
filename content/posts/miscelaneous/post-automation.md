@@ -8,8 +8,8 @@ aliases: ["/post-automation"]
 tags: ["hugo", "paperMod", "bash"]
 author: ["Sara DM"]
 cover:
-  image: images/.jpg
-  hiddenInList: true
+  image: images/post-automation.jpg
+  hiddenInList: false
 ShowToc: false
 ShareButtons: twitter, bluesky
 ---
@@ -22,6 +22,7 @@ First I tried to find how to enhance `hugo new posts/post-name.md`. While there'
 There's also the possibility of adding `Params`, but again, if I am not mistaken they have to be globally configured in order to be used. Then you'd typically chose one or another. 
 {{< /callout >}}
 
+&nbsp;  
 So I opted for the bash-scripting way. <span class="emoji">🤷‍♀️</span> 
 Here's a recap of how to use these scripts.
 
@@ -69,7 +70,7 @@ It is interesting to notice how `${2|option1,option2,option3|}` creates a dropdo
 2. Cursor is at title. Once you write it, `tab` shifts focus to `type` and shows dropdown with options: `info, warning, danger, success`.
 
 ### Example Key Binding
-```
+```json
 [
     {
         "key": "cmd+8",
