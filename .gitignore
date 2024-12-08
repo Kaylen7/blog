@@ -1,6 +1,8 @@
 public/
 resources/
 .hugo_build.lock
+content/posts/*/.*.md
 content/posts/.*.md
 .git/modules
 art/
+.DS_Store
