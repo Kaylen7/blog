@@ -1,5 +1,5 @@
 ---
-title: "Configuración para escribir publicaciones"
+title: "Entorno para escribir publicaciones"
 summary: "Algunas de las herramientas que uso para escribir markdown más rápido"
 date: 2024-12-08
 series: ["lifehacks"]
