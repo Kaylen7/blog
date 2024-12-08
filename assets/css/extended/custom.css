@@ -43,6 +43,9 @@
 
 .callout.info { 
     background-color: var(--code-bg); 
+    & code {
+        background-color: var(--tertiary);
+    }
 }
 
 .callout.warning { 

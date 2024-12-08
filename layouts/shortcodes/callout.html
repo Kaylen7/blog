@@ -18,6 +18,6 @@
     </div>
     {{ end }}
     <div class="callout-content">
-        {{ .Inner }}
+        {{ .Inner | markdownify }}
     </div>
 </div>
