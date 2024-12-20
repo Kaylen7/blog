@@ -373,7 +373,7 @@ class PDFBookViewer {
 
 // Initialize when the document is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-    const siteBasePath = window.location.pathname.split('/').slice(0, -4).join('/') || '/';
+    const siteBasePath = window.location.pathname.split('/').slice(0, -5).join('/') || '/';
     console.log(siteBasePath);
     const pdfPath = `${siteBasePath}/showcases/phd/phd-thesis-example.pdf`;
     const viewer = new PDFBookViewer(pdfPath);
@@ -391,7 +391,7 @@ Aquí una muestra de los pinceles que diseñé para este proyecto.
 <script>
 const Gif = document.getElementById('example-gif');
 document.addEventListener('DOMContentLoaded', () => {
-    const siteBasePath = window.location.pathname.split('/').slice(0, -4).join('/') || '/';
+    const siteBasePath = window.location.pathname.split('/').slice(0, -5).join('/') || '/';
     const gifPath = `${siteBasePath}/showcases/phd/example-brush.gif`;
     Gif.src=gifPath;
 });
